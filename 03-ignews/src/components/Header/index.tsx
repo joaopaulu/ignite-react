@@ -1,3 +1,4 @@
+import { SingInButton } from 'components/SingInButton';
 import styles from './styles.module.scss';
 
 export function Header() {
@@ -11,6 +12,7 @@ export function Header() {
           </a>
           <a href="#">Posts</a>
         </nav>
+        <SingInButton />
       </div>
     </header>
   );
